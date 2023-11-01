@@ -1,5 +1,6 @@
 import React from 'react'
-import Link from 'next/link'
+import { Link } from 'react-router-dom'
+
 
 const Navbar = () => {
     return (
@@ -10,16 +11,16 @@ const Navbar = () => {
             </div>
 
             <nav className='max-w-[1440px] mx-auto flex justify-between items-center sm:px-16 px-6 py-10'>
-                    <Link href="/offenders" className='flex'>
+                    <Link to="/Offenders" className='flex'>
                         <span className='nav__text py-4'>Offenders</span>
                     </Link>
-                    <Link href="/" className='flex'>
+                    <Link to="/Area" className='flex'>
                         <span className='nav__text'>Area</span>
                     </Link>
-                    <Link href="/" className='flex'>
+                    <Link to="/" className='flex'>
                         <span className='nav__text'>Homepage</span>
                     </Link>
-                    <Link href="/" className='flex'>
+                    <Link to="/Login" className='flex'>
                         <span className='nav__text'>Login</span>
                     </Link>
             </nav>
