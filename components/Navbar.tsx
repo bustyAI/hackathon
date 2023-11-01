@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Navbar = () => {
     return (
-        <header className='w-full absolute z-10 flex-1' >
+        <header className='w-full z-10' >
             <div className='flex w-full mx-auto sm:px-16 pb-5'>
                 <span className=' text-7xl font-extrabold text-red-500 flex pt-10 pl-10'>Be</span>
                 <span className=' text-7xl font-extrabold text-yellow-500 flex pt-10'>Safe</span>
